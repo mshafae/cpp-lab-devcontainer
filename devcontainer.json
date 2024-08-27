@@ -1,9 +1,11 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+// For format details, see https://aka.ms/devcontainer.json.
+// For config options, see the README at:
+// https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
   "name": "TUSK Dev Container",
-  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  // "image": "mcr.microsoft.com/devcontainers/base:jammy"
+  // See the Dockerfile or Docker Compose file for container information.
+  // More info: https://containers.dev/guide/dockerfile
+  // "image": "mcr.microsoft.com/devcontainers/base:noble"
   "build": {
     "dockerfile": "Dockerfile"
   },
