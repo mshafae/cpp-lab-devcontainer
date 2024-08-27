@@ -1,7 +1,8 @@
 # This is from GitHub's container repository
-FROM ghcr.io/mshafae/tusk-jammy-min:latest
+FROM ghcr.io/mshafae/tusk-noble-min:latest
 # This is from Docker Hub
-# FROM mshafae/tusk-jammy-min
+# FROM mshafae/tusk-noble-min
 # This is Microsoft's default Ubuntu Jammy container
-# FROM mcr.microsoft.com/devcontainers/base:jammy
+# (Does not have CPSC Lab dev. environment.)
+# FROM mcr.microsoft.com/devcontainers/base:noble
 
