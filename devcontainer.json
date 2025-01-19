@@ -14,5 +14,8 @@
     "ms-vscode.cpptools-extension-pack",
     "ms-vscode.cpptools-themes"
   ],
-  "remoteUser": "tuffy"
+  "remoteUser": "tuffy",
+  "remoteEnv": {
+    "TZ": "America/Los_Angeles"
+  },
 }
