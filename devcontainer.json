@@ -119,4 +119,6 @@
   "remoteEnv": {
     "TZ": "America/Los_Angeles"
   },
+  "postStartCommand": "export MS_GIT_USER_NAME=\"$(git config --system user.name)\" && export MS_GIT_USER_EMAIL=\"$(git config --system user.email)\" && git config --global --replace-all user.name \"${MS_GIT_USER_NAME}\" && git config --global --replace-all user.email \"${MS_GIT_USER_EMAIL}\" && git config pull.rebase false",
+  // "postAttachCommand": "export MS_GIT_USER_NAME=\"$(git config --system user.name)\" && export MS_GIT_USER_EMAIL=\"$(git config --system user.email)\" && git config --global --replace-all user.name \"${MS_GIT_USER_NAME})\" && git config --global --replace-all user.email \"${MS_GIT_USER_EMAIL}\" && git config pull.rebase false",
 }
