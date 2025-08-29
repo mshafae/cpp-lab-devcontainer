@@ -21,6 +21,7 @@
           "accessibility.signals.terminalBell": {
             "sound": "on",
           },
+
           "C_Cpp.autocomplete": "disabled",
           "C_Cpp.clang_format_fallbackStyle": "Google",
           "C_Cpp.codeFolding": "disabled",
@@ -30,6 +31,7 @@
           "C_Cpp.enhancedColorization": "enabled",
           "C_Cpp.errorSquiggles": "disabled",
           "C_Cpp.formatting": "clangFormat",
+
           "editor.autoClosingQuotes": "never",
           "editor.colorDecorators": false,
           "editor.emptySelectionClipboard": false,
@@ -50,9 +52,12 @@
           "editor.selectionHighlight": false,
           "editor.stickyScroll.enabled": false,
           "editor.suggestOnTriggerCharacters": false,
+
           "extensions.ignoreRecommendations": true,
+
           "explorer.autoOpenDroppedFile": false,
           "explorer.compactFolders": false,
+
           "files.autoSave": "afterDelay",
           "files.autoSaveDelay": 1000,
           "files.exclude": {
@@ -78,22 +83,28 @@
               "**/.git/objects/**": true,
               "**/.git/subtree-cache/**": true,
           },
+
           "git.autofetch": true, /* Disable "Would you like Code to periodically run 'git fetch'?" toast */
-          "github.codespaces.devcontainerChangedNotificationStyle": "none",
           "git.decorations.enabled": false,
           "git.terminalAuthentication": true,
+
+          "github.codespaces.devcontainerChangedNotificationStyle": "none",
           "github.gitAuthentication": true,
+
           "gitdoc.autoPull": "off",
           "gitdoc.enabled": true,
           "gitdoc.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
           "gitdoc.commitValidationLevel": "none",
           "gitdoc.pullOnOpen": false,
+
           "problems.decorations.enabled": false,
           "problems.visibility": false,
+
           "python.terminal.executeInFileDir": true,
           "[python]": {
             "editor.defaultFormatter": "ms-python.autopep8"
           },
+
           "terminal.integrated.enableVisualBell": true,
           "terminal.integrated.defaultProfile.linux": "bash",
           "terminal.integrated.gpuAcceleration": "off",
@@ -107,7 +118,10 @@
           "terminal.integrated.showExitAlert": false,
           "terminal.integrated.tabs.description": "${task}${separator}${local}", /* Remove cwdFolder from description */
           "terminal.integrated.tabs.showActiveTerminal": "never",
+
           "window.autoDetectColorScheme": true,
+          "window.menuBarVisibility": "visible",
+
           "workbench.editor.closeOnFileDelete": true,
           "workbench.editor.enablePreview": false,
           "workbench.iconTheme": "vs-minimal", /* Simplify icons */
@@ -118,6 +132,7 @@
           "workbench.statusBar.visible": false,
           "workbench.tips.enabled": false,
           "workbench.welcomePage.walkthroughs.openOnInstall": false,
+          "workbench.activityBar.visible": false,
         },
       },
   },
